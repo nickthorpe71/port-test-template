@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Header from './components/header/header';
+import Header from './components/Header/Header';
 import About from './components/About/About';
-import Resume from './components/resume/resume';
-import Portfolio from './components/portfolio/portfolio';
-import Testimonials from './components/testimonials/testimonials';
-import ContactUs from './components/contactus/contactus';
-import Footer from './components/footer/footer';
+import Resume from './components/Resume/Resume';
+import Portfolio from './components/Portfolio/Portfolio';
+import Testimonials from './components/Testimonials/Testimonials';
+import ContactUs from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
