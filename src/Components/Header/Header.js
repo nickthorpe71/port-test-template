@@ -16,8 +16,8 @@ export default function Header() {
       </nav> {/* end #nav-wrap */}
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">I'm Nick.</h1>
-          <h3>Add description here</h3>
+          <h1 className="responsive-headline">I'm Nick,</h1>
+          <h3>My current specialties include fullstack web development and game dev/design with Unity. </h3>
           <ul className="social">
             <li><a href="#"><i className="fa fa-twitter" /></a></li>
             <li><a href="#"><i className="fa fa-linkedin" /></a></li>

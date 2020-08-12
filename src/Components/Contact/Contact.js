@@ -8,15 +8,13 @@ export default function Contact(props) {
           <h1><span>Get In Touch.</span></h1>
         </div>
         <div className="ten columns">
-          <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-          voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+          <p className="lead">If you are looking for a a committed versatile developer, or you are interested
+          in connecting to discuss and work on innovative ventures.
             </p>
         </div>
       </div>
       <div className="row">
         <div className="eight columns">
-          {/* form */}
           <form action method="post" id="contactForm" name="contactForm">
             <fieldset>
               <div>
@@ -42,7 +40,7 @@ export default function Contact(props) {
                 </span>
               </div>
             </fieldset>
-          </form> {/* Form End */}
+          </form>
           {/* contact-warning */}
           <div id="message-warning"> Error boy</div>
           {/* contact-success */}
@@ -53,32 +51,11 @@ export default function Contact(props) {
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
             <h4>Address and Phone</h4>
-            <p className="address">
-              Jonathan Doe<br />
-                1600 Amphitheatre Parkway <br />
-                Mountain View, CA 94043 US<br />
-              <span>(123) 456-7890</span>
-            </p>
-          </div>
-          <div className="widget widget_tweets">
-            <h4 className="widget-title">Latest Tweets</h4>
-            <ul id="twitter">
-              <li>
-                <span>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                </span>
-                <b><a href="#">2 Days Ago</a></b>
-              </li>
-              <li>
-                <span>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                </span>
-                <b><a href="#">3 Days Ago</a></b>
-              </li>
+            <ul className="address">
+              <li>Nick Thorpe</li>
+              <li>Chicago, IL</li>
+              <li>(347)583-3555</li>
+              <li>nickthorpe71@gmail.com</li>
             </ul>
           </div>
         </aside>

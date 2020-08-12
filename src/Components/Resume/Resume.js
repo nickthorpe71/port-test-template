@@ -13,28 +13,18 @@ export default function Resume() {
         <div className="nine columns main-col">
           <div className="row item">
             <div className="twelve columns">
-              <h3>University of Life</h3>
-              <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                </p>
+              <h3>Thinkful</h3>
+              <p className="info">Full Stack Web Development <span>•</span> <em className="date">March 2020 - Oct 2020</em></p>
+              <ul>
+                <li>
+                  Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms {'&'} data structures.
+                </li>
+                <li>
+                  Created and deployed mobile-first applications while learning new languages and frameworks by collaborating several hours every week with a senior web developer.
+                </li>
+              </ul>
             </div>
-          </div> {/* item end */}
-          <div className="row item">
-            <div className="twelve columns">
-              <h3>School of Cool Designers</h3>
-              <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
-              <p>
-                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                </p>
-            </div>
-          </div> {/* item end */}
+          </div>
         </div> {/* main-col end */}
       </div> {/* End Education */}
       {/* Work
@@ -46,26 +36,39 @@ export default function Resume() {
         <div className="nine columns main-col">
           <div className="row item">
             <div className="twelve columns">
-              <h3>Awesome Design Studio</h3>
-              <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                </p>
+              <h3>PartsTrader</h3>
+              <p className="info">Technical Support Specialist <span>•</span> <em className="date">July 2018 - May 2020</em></p>
+              <ul>
+                <li>
+                  Resolved issues customers were having with our software on a variety of different operating systems
+                </li>
+                <li>
+                  Built systems to automate tasks around the office using VBA and PowerApps
+                </li>
+                <li>
+                  Utilized Excel and Power BI to generate daily, weekly and monthly reporting  for management
+                </li>
+              </ul>
             </div>
           </div> {/* item end */}
           <div className="row item">
             <div className="twelve columns">
-              <h3>Super Cool Studio</h3>
-              <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
-              <p>
-                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                </p>
+              <h3>Lost One Studios</h3>
+              <p className="info"> Game Developer <span>•</span> <em className="date">Mar 2017 - July 2020</em></p>
+              <ul>
+                <li>
+                  Wrote code for a variety of systems including AI player behaviour, game mechanics, sound integration, visual effects, UX/UI and more
+                </li>
+                <li>
+                  Created fully functioning multiplayer networked matchmaking using Photon (PUN 2)
+                </li>
+                <li>
+                  Implemented in app purchases and advertising on multiple games
+                </li>
+                <li>
+                  Identified, tested, documented and fixed bugs
+                </li>
+              </ul>
             </div>
           </div> {/* item end */}
         </div> {/* main-col end */}
@@ -77,19 +80,21 @@ export default function Resume() {
           <h1><span>Skills</span></h1>
         </div>
         <div className="nine columns main-col">
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-          voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-          voluptatem sequi nesciunt.
+          <p>A summary of the skills I have aquired so far but I have a passion for learning so this list is always expanding.
             </p>
           <div className="bars">
             <ul className="skills">
-              <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-              <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-              <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-              <li><span className="bar-expand css" /><em>CSS</em></li>
-              <li><span className="bar-expand html5" /><em>HTML5</em></li>
-              <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+              <li>React.js</li>
+              <li>Javascript</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>CSS</li>
+              <li>HTML5</li>
+              <li>jQuery</li>
+              <li>Vercel</li>
+              <li>Heroku</li>
+              <li>Unity</li>
+              <li>C#</li>
             </ul>
           </div>{/* end skill-bars */}
         </div> {/* main-col end */}
