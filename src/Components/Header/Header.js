@@ -10,8 +10,7 @@ export default function Header() {
           <li className="current"><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Works</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#portfolio">Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul> {/* end #nav */}
       </nav> {/* end #nav-wrap */}
